@@ -18,9 +18,9 @@ The Dubbo registry and services are configured independently. Usually, developer
 # application.yml (Spring Boot)
 dubbo
  registries
-  beijing Registry
+  beijingRegistry
    address: zookeeper://localhost:2181
-  shanghai Registry
+  shanghaiRegistry
    address: zookeeper://localhost:2182
 ```
 
@@ -41,10 +41,10 @@ In addition to the framework mentioned above to automatically set the global reg
 # application.yml (Spring Boot)
 dubbo
  registries
-  beijing Registry
+  beijingRegistry
    address: zookeeper://localhost:2181
    default: true
-  shanghai Registry
+  shanghaiRegistry
    address: zookeeper://localhost:2182
    default: false
 ```
